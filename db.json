@@ -1,18 +1,31 @@
-[
-  {
-    "name": "Auto da Compadecida",
-    "age": 1987
-  },
-  {
-    "name": "Homem aranha 3",
-    "age": 2021
-  },
-  {
-    "name": "Vingadores Ultimato",
-    "age": 2019
-  },
-  {
-    "name": "Shrek 3",
-    "age": 2007
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "Post 1"
+    },
+    {
+      "id": 2,
+      "title": "Post 2"
+    },
+    {
+      "id": 3,
+      "title": "Post 3"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    },
+    {
+      "id": 2,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
   }
-]
+}
